@@ -37,4 +37,4 @@ jobs:
         default: true
 
     - name: Check Code
-      run: rust update && cargo check
+      run: rustup update && cargo check
